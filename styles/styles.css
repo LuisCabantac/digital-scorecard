@@ -16,3 +16,9 @@ body {
     margin: 0 auto;
     padding: 30px;
 }
+
+.top-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

@@ -25,3 +25,10 @@ function decrementScore(team, value) {
     }
     updateScore(team);
 }
+
+function resetScores() {
+    homeScore = 0;
+    guestScore = 0;
+    updateScoreDisplay('home');
+    updateScoreDisplay('guest');
+}

@@ -9,3 +9,10 @@ body {
     margin: 100px;
     text-align: center;
 }
+
+.container {
+    background-color: #303030;
+    width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+}

@@ -15,14 +15,14 @@
                 <h2 id="home-score">00</h2>
                 <div class="home-btn">
                     <div class="increment-home-btn">
-                        <button>+1</button>
-                        <button>+2</button>
-                        <button>+3</button>
+                        <button onclick="incrementScore(`home`, 1)">+1</button>
+                        <button onclick="incrementScore(`home`, 2)">+2</button>
+                        <button onclick="incrementScore(`home`, 3)">+3</button>
                     </div>
                     <div class="decrement-guest-btn">
-                        <button>-1</button>
-                        <button>-2</button>
-                        <button>-3</button>
+                        <button onclick="decrementScore(`home`, 1)">-1</button>
+                        <button onclick="decrementScore(`home`, 2)">-2</button>
+                        <button onclick="decrementScore(`home`, 3)">-3</button>
                     </div>
                 </div>
             </div>
@@ -31,20 +31,20 @@
                 <h2 id="guest-score">00</h2>
                 <div class="guest-btn">
                     <div class="increment-guest-btn">
-                        <button>+1</button>
-                        <button>+2</button>
-                        <button>+3</button>
+                        <button onclick="incrementScore(`guest`, 1)">+1</button>
+                        <button onclick="incrementScore(`guest`, 2)">+2</button>
+                        <button onclick="incrementScore(`guest`, 3)">+3</button>
                     </div>
                     <div class="decrement-guest-btn">
-                        <button>-1</button>
-                        <button>-2</button>
-                        <button>-3</button>
+                        <button onclick="decrementScore(`guest`, 1)">-1</button>
+                        <button onclick="decrementScore(`guest`, 2)">-2</button>
+                        <button onclick="decrementScore(`guest`, 3)">-3</button>
                     </div>
                 </div>
             </div>
         </div>
         <div class="btn-container">
-            <button>RESET</button>
+            <button onclick="resetScores()">RESET</button>
         </div>
         </div>
     </body>

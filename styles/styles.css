@@ -8,6 +8,7 @@
 body {
     margin: 100px;
     text-align: center;
+    background-color: #505050;
 }
 
 .container {
@@ -15,12 +16,31 @@ body {
     width: 400px;
     margin: 0 auto;
     padding: 30px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.2);
 }
 
 .top-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+h1 {
+    margin: 0 0 10px 0;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+h2 {
+    background-color: #222222;
+    color: red;
+    font-family: "DIGI";
+    font-size: 70px;
+    margin: 0 0 10px;
+    padding: 10px;
+    box-shadow: inset 2px 2px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
 }
 
 .home-btn button, .guest-btn button {
@@ -58,21 +78,4 @@ body {
 
 .btn-container button:active {
     background-color:  #5C5C5C;
-}
-
-h1 {
-    margin: 0 0 10px 0;
-    color: white;
-    font-family: "Roboto", sans-serif;
-}
-
-h2 {
-    background-color: #222222;
-    color: red;
-    font-family: "DIGI";
-    font-size: 70px;
-    margin: 0 0 10px;
-    padding: 10px;
-    box-shadow: inset 2px 2px 15px rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
 }

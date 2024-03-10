@@ -22,3 +22,8 @@ body {
     justify-content: space-around;
     align-items: center;
 }
+
+.home-btn button, .guest-btn button {
+    width: 30px;
+    height: 30px;
+}
